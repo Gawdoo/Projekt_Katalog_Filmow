@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import json
 import os
 
-# Funkcja generuje wykres słupkowy średnich ocen filmów
+# Funkcja generuje wykres słupkowy średnich ocen filmow
 def wykres_ocen(json_file, output_file="oceny.png"):
     # Wczytuje dane z pliku JSON
     with open(json_file, "r", encoding="utf-8") as f:
